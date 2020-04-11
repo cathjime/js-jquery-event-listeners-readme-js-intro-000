@@ -6,6 +6,9 @@ function getIt (){
 }
 
 function frameIt(){
+  $('img').on('load', function(){
+  //actions you want to happen
+});
 
 }
 // should bind the load event that adds the class tasty
