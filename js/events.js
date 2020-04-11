@@ -12,7 +12,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $(document).on("keydown", function(){
+  $(document).on("keydown", function(key){
     alert("Hey!");
   });
 }
