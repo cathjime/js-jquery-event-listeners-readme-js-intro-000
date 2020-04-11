@@ -12,9 +12,11 @@ function frameIt(){
 }
 
 function pressIt(){
-  $(document).on("keydown", function(key){
-    alert("Hey!");
-  });
+  $(document).on('keydown', function(key) {
+    if(key.which == "G"){
+      alert('s was pressed');
+  }
+});
 }
 // should bind a keydown event to the input field 
 // of the form that alerts a user when they have 
