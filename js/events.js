@@ -14,6 +14,9 @@ function frameIt(){
 function pressIt(){
   
 }
+// should bind a keydown event to the input field 
+// of the form that alerts a user when they have 
+// pressed the G key.
 
 
 $(document).ready(function(){
